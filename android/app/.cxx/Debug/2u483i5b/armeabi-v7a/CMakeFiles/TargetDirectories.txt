@@ -1,0 +1,2 @@
+D:/FYP/full code/only_chef/android/app/.cxx/Debug/2u483i5b/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/FYP/full code/only_chef/android/app/.cxx/Debug/2u483i5b/armeabi-v7a/CMakeFiles/rebuild_cache.dir
