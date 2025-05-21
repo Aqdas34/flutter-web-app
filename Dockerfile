@@ -16,10 +16,12 @@ RUN apt-get update && apt-get install -y \
 RUN git clone https://github.com/flutter/flutter.git /flutter
 ENV PATH="/flutter/bin:${PATH}"
 
+
+
 # Step 5: Enable Flutter web support
-RUN flutter channel stable \
-    && flutter upgrade \
-    && flutter config --enable-web
+RUN flutter channel stable
+RUN flutter upgrade
+RUN flutter config --enable-web
 
 # Step 6: Copy the Flutter project files into the container
 COPY . .
